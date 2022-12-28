@@ -40,3 +40,8 @@ except ImportError:
 
     else:
         version += ".%s" % _patch
+
+        # add local version
+        version += "+0.1.0"
+
+
